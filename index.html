@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MIT Collaboration Bubble Chart</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bubble_chart.css">
+  <link href="https://fonts.googleapis.com/css?family=Kanit:400,600" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <div id="toolbar">
+      <a href="#" id="all" class="button active">ALL PEOPLE</a>
+      <a href="#" id="position" class="button">POSITION</a>
+      <a href="#" id="bridgeCore" class="button">BRIDGE / CORE</a>
+      <a href="#" id="researchGroup" class="button">RESEARCH GROUP</a>
+      <a href="#" id="discipline" class="button">DISCIPLINE</a>
+      <a href="#" id="floorLayout" class="button">FLOOR LAYOUT</a>
+      <!-- <span class="controls"><input type="checkbox" id="checkNodes" onclick="drawNodes()" checked>  SHOW NODES</span>
+      <span class="controls"><input type="checkbox" id="checkLinks" onclick="drawLinks()">  SHOW LINKS</span>
+      <span class="controls"><input type="checkbox" id="checkCollab" onclick="showCollabType()">  SHOW COLLABORATION TYPE</span> -->
+    </div>
+    <div id="vis"></div>
+    <div id="floorPlanBackground"></div>
+    <span id="mostSolitary"></span>
+    <div id="sliderContainer" class="slider"></div>
+    <span id="mostCollaborative"></span>
+    <!-- <div id="floorSel">
+      <a href="#" id="allFloors" class="floorButton active">ALL FLOORS</a>
+      <a href="#" id="floor3" class="floorButton">3</a>
+      <a href="#" id="floor4" class="floorButton">4</a>
+      <a href="#" id="floor5" class="floorButton">5</a>
+      <a href="#" id="floor6" class="floorButton">6</a>
+      <a href="#" id="floor7" class="floorButton">7</a>
+      <a href="#" id="floor8" class="floorButton">8</a>
+      <a href="#" id="floor9" class="floorButton">9</a>
+      <a href="#" id="floor10" class="floorButton">10</a>
+    </div> -->
+
+  <script src="//d3js.org/d3.v4.min.js"></script>
+  <script src="src/tooltip.js"></script>
+  <script src="src/bubble_chart_mit.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</body>
+</html>
